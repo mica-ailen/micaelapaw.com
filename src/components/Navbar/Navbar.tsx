@@ -30,7 +30,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, onSectionClick }) => {
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="navbar-content">
         <div className="logo" onClick={() => handleNavClick("home")}>
-          JD
+          MP
         </div>
         <ul className={`nav-links ${isMenuOpen ? "open" : ""}`}>
           {navItems.map((item) => (

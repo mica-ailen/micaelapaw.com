@@ -2,6 +2,7 @@ import React from "react";
 import { ChevronRight } from "lucide-react";
 import { personalInfo } from "../../data/portfolio";
 import "./Hero.css";
+/*import logo from "../../../public/assets/logo.png";*/
 
 interface HeroProps {
   onProjectsClick: () => void;

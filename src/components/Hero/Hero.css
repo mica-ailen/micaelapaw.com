@@ -3,13 +3,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #c23232 0%, #764ba2 100%);
   position: relative;
   overflow: hidden;
 }
 
 .hero::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -20,8 +20,12 @@
 }
 
 @keyframes float {
-  0% { transform: translate(0, 0); }
-  100% { transform: translate(-60px, -60px); }
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-60px, -60px);
+  }
 }
 
 .hero-content {
@@ -79,7 +83,7 @@
 
 .btn-primary {
   background: white;
-  color: #667eea;
+  color: #764ba2;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 

@@ -14,10 +14,6 @@ const Contact: React.FC = () => {
             free to reach out if you'd like to work together!
           </p>
           <div className="contact-links">
-            <a href={`mailto:${personalInfo.email}`} className="contact-link">
-              <Mail size={20} />
-              {personalInfo.email}
-            </a>
             <a href={personalInfo.github} className="contact-link">
               <Github size={20} />
               GitHub

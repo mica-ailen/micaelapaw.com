@@ -9,7 +9,9 @@ interface ProjectCardProps {
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
     <div className="project-card fade-in">
-      <div className="project-image">🚀</div>
+      <div className="project-image">
+        <img src={project.image} alt={project.title} />
+      </div>
       <div className="project-content">
         <h3 className="project-title">{project.title}</h3>
         <p className="project-description">{project.description}</p>
@@ -21,10 +23,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           ))}
         </div>
         <div className="project-links">
-          <a href={project.liveUrl} className="project-link">
+          <a href={project.liveUrl} target="_blank" className="project-link">
             Live Demo <ExternalLink size={16} />
           </a>
-          <a href={project.githubUrl} className="project-link">
+          <a href={project.githubUrl} target="_blank" className="project-link">
             GitHub <Github size={16} />
           </a>
         </div>
