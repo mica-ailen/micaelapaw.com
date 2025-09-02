@@ -10,9 +10,9 @@ export const projects: Project[] = [
       "Javascript",
       "Bootstrap",
       "Python",
-      "Figma",
       "Git",
       "GitHub",
+      "Figma",
     ],
     image: "./assets/polskablog.png",
     liveUrl: "https://polskablog.com/",
@@ -23,7 +23,7 @@ export const projects: Project[] = [
     title: "Movie Match",
     description:
       "Never waste time scrolling streaming services. Our smart picker cuts through decision fatigue—select your mood, discover your perfect watch in seconds.",
-    technologies: ["Javascript", "Figma", "CSS", "Git", "GitHub"],
+    technologies: ["Javascript", "CSS", "Git", "GitHub", "Figma"],
     image: "./assets/movie-match.png",
     liveUrl: "https://mica-ailen.github.io/movie-match/",
     githubUrl: "https://github.com/mica-ailen/movie-match",
@@ -34,9 +34,19 @@ export const projects: Project[] = [
     description:
       "Staring at a fridge full of ingredients? Enter one ingredient, get recipes plus step-by-step video tutorials. Cook with ease, no matter your experience.",
     image: "./assets/dish-discovery.png",
-    technologies: ["Javascript", "CSS", "Git", "GitHub"],
+    technologies: ["Javascript", "CSS", "Git", "GitHub", "Figma"],
     liveUrl: "https://mica-ailen.github.io/dish-discovery/",
     githubUrl: "https://github.com/mica-ailen/dish-discovery",
+  },
+  {
+    id: 4,
+    title: "Task Management",
+    description:
+      "Drowning in endless to-do lists? Add, edit, delete, and check off tasks with instant updates. Stay organized and productive, no matter how busy your day gets.",
+    image: "./assets/task-managment-app.png",
+    technologies: ["React", "CSS", "Git", "GitHub", "Figma"],
+    liveUrl: "https://mica-ailen.github.io/task-management-productivity-app/",
+    githubUrl: "https://github.com/mica-ailen/task-management-productivity-app",
   },
 ];
 
